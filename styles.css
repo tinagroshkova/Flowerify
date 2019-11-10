@@ -1,0 +1,180 @@
+@import url('https://use.fontawesome.com/releases/v5.8.2/css/all.css');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans&display=swap');
+
+html {
+    box-sizing: border-box;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+*:after, *::before {
+    box-sizing: inherit
+}
+
+body {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+}
+
+header nav {
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+}
+
+header nav ul li {
+    margin: 1em;
+}
+
+.about li:first-of-type {
+    color: orange;
+}
+
+.contacts li {
+    border-right: 1px solid gray;
+    padding-right: 0.5em;
+    margin-left: 0em;
+}
+
+.section-image {
+    background: url('banner.jpg') no-repeat center;
+    color: white;
+    text-align: center;
+    padding: 2em;
+    height: 25em;
+}
+
+.section-image p {
+    margin: 1em;
+    font-size: 1.5em;
+}
+
+.section-image h1 {
+    font-size: 2em;
+}
+
+.section-image div {
+    padding-top: 3em;
+}
+
+
+.how-it-works h4 {
+    text-align: center;
+
+}
+
+.how-it-works ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    margin-top: 0.5em;
+}
+
+.how-it-works ul li {
+    text-align: center;
+    width: 15%;
+    margin: 1em;
+}
+
+.how-it-works ul li h2 {
+    padding: 0.2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.num {
+    font-size: 2.5em;
+    text-align: center;
+}
+.num:before,
+.num:after {
+    content: '';
+    height: 2px;
+    width: 15px;
+    background-color: grey;
+    display: block;
+    margin: 0.5rem;
+}
+
+.images ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    padding: 3em 0 3em 0;
+}
+
+.images ul li {
+    margin: 0.2em;
+}
+
+.images ul li img {
+    width: 20em;
+}
+
+.images {
+    background-color: rgb(237, 237, 237);
+}
+
+footer {
+    background-color: black;
+    color: white;
+}
+
+footer ul {
+    list-style: none;
+}
+
+.left {
+    display: flex;
+    padding: 0 1em 3em 3em;
+    border-bottom: 1px solid gray;
+}
+
+.left ul {
+    padding: 0 1em 1em 1em;
+}
+
+.center p {
+    text-align: center;
+}
+
+.right {
+    display: block;
+}
+
+.right > * {
+    margin: 0 1em 1em 1em;
+}
+
+.right input,
+.right button {
+    padding: 0.5em;
+}
+
+.right button {
+    background-color: red;
+    color: white;
+    border-radius: 5%;
+    border: none;
+}
+
+.upper {
+    display: flex;
+    justify-content: center;
+    padding-top: 2.5em;
+}
+
+.down {
+    text-align: center;
+    padding: 4em 0 2em 0;
+}
